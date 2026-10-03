@@ -10,9 +10,41 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const dataFilePath = path.join(__dirname, 'data', 'menu.json');
 
-const adminUser = {
+const adminCredentialsPath = path.join(__dirname, 'data', 'admin.json');
+const defaultAdminUser = {
   username: 'admin',
   password: 'yanni123',
+};
+
+const ensureAdminCredentialsFile = () => {
+  const dir = path.dirname(adminCredentialsPath);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+
+  if (!fs.existsSync(adminCredentialsPath)) {
+    fs.writeFileSync(adminCredentialsPath, JSON.stringify(defaultAdminUser, null, 2), 'utf8');
+  }
+};
+
+const getAdminUser = () => {
+  ensureAdminCredentialsFile();
+
+  try {
+    const contents = fs.readFileSync(adminCredentialsPath, 'utf8');
+    const parsed = JSON.parse(contents);
+    return {
+      ...defaultAdminUser,
+      ...parsed,
+    };
+  } catch {
+    return { ...defaultAdminUser };
+  }
+};
+
+const writeAdminUser = (user) => {
+  ensureAdminCredentialsFile();
+  fs.writeFileSync(adminCredentialsPath, JSON.stringify(user, null, 2), 'utf8');
 };
 
 const defaultMenuData = [
@@ -68,12 +100,38 @@ app.get('/api/health', (req, res) => {
 
 app.post('/api/admin/login', (req, res) => {
   const { username, password } = req.body || {};
+  const adminUser = getAdminUser();
 
   if (username === adminUser.username && password === adminUser.password) {
     return res.json({ ok: true, message: 'Login successful' });
   }
 
   return res.status(401).json({ ok: false, message: 'Invalid credentials' });
+});
+
+app.put('/api/admin/credentials', (req, res) => {
+  const { username, password, currentUsername, currentPassword } = req.body || {};
+  const adminUser = getAdminUser();
+
+  if (currentUsername !== adminUser.username || currentPassword !== adminUser.password) {
+    return res.status(401).json({ ok: false, message: 'Current admin credentials are invalid.' });
+  }
+
+  const nextUsername = String(username || '').trim();
+  const nextPassword = String(password || '').trim();
+
+  if (!nextUsername || !nextPassword) {
+    return res.status(400).json({ ok: false, message: 'Username and password are required.' });
+  }
+
+  const nextUser = {
+    username: nextUsername,
+    password: nextPassword,
+    role: 'menu-admin',
+  };
+
+  writeAdminUser(nextUser);
+  return res.json({ ok: true, message: 'Admin credentials updated successfully.' });
 });
 
 app.get('/api/menu', (req, res) => {
@@ -83,6 +141,7 @@ app.get('/api/menu', (req, res) => {
 
 app.put('/api/menu', (req, res) => {
   const { username, password, menu } = req.body || {};
+  const adminUser = getAdminUser();
 
   if (username !== adminUser.username || password !== adminUser.password) {
     return res.status(401).json({ ok: false, message: 'Unauthorized' });
