@@ -1,1 +1,501 @@
-[]
+[
+  {
+    "title": "Cultural Foods",
+    "items": [
+      {
+        "name": "Yanni Special Meat Combo (ያኒ እስፔሻል የፈስግ ኮምቦ)",
+        "price": "1,200 ETB",
+        "vipPrice": "1,500 ETB",
+        "description": "Premium beef and cultural sides with signature Ethiopian flavor.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Shekla Tibs (ሸክላ ጥብስ)",
+        "price": "850 ETB",
+        "vipPrice": "1,050 ETB",
+        "description": "Tender sautéed beef with onions, peppers, and house spices.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Tibs (ጥብስ)",
+        "price": "750 ETB",
+        "vipPrice": "900 ETB",
+        "description": "Classic Ethiopian beef tibs with peppers and butter.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Dulet (ዱለት)",
+        "price": "450 ETB",
+        "vipPrice": "560 ETB",
+        "description": "Spicy mixed minced meat and liver with local herbs.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Tibs Tefersho (ጥብስ ተፈርሾ)",
+        "price": "800 ETB",
+        "vipPrice": "980 ETB",
+        "description": "Rich beef tibs served with house sauce and vegetables.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Enkulal be Siga (እንቁላል በስጋ)",
+        "price": "350 ETB",
+        "vipPrice": "430 ETB",
+        "description": "Eggs with meat and soft Ethiopian seasoning.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Pasta be Siga (ፓስታ በስጋ)",
+        "price": "380 ETB",
+        "vipPrice": "470 ETB",
+        "description": "Pasta served with savory beef sauce and herbs.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Quanta Firfir (ቋንጣ ፍርፍር)",
+        "price": "600 ETB",
+        "vipPrice": "720 ETB",
+        "description": "Spiced shredded injera with vegetables and sauce.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Bozena Shiro (ቦዘና ሽሮ)",
+        "price": "450 ETB",
+        "vipPrice": "550 ETB",
+        "description": "Hearty chickpea stew with warm Ethiopian seasoning.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Gomen be Siga (ጎመን በስጋ)",
+        "price": "500 ETB",
+        "vipPrice": "620 ETB",
+        "description": "Collard greens with tender beef and aromatic spices.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Qiqel (ቅቅል)",
+        "price": "550 ETB",
+        "vipPrice": "680 ETB",
+        "description": "Crispy roasted vegetables and meat with Ethiopian seasoning.",
+        "cat": "Cultural foods"
+      },
+      {
+        "name": "Yanni Special Fish Combo (ያኒ እስፔሻል አሳ ኮምቦ)",
+        "price": "1,100 ETB",
+        "vipPrice": "1,350 ETB",
+        "description": "Signature fish platter with fresh herbs and lake-style seasoning.",
+        "cat": "Fish Cultural"
+      },
+      {
+        "name": "Asa Lebleb (አሳ ለብለብ)",
+        "price": "650 ETB",
+        "vipPrice": "800 ETB",
+        "description": "Fish pieces sautéed with local spice and peppers.",
+        "cat": "Fish Cultural"
+      },
+      {
+        "name": "Asa Dulet (አሳ ዱለት)",
+        "price": "500 ETB",
+        "vipPrice": "620 ETB",
+        "description": "Spiced fish dulet with bold Ethiopian flavor.",
+        "cat": "Fish Cultural"
+      }
+    ]
+  },
+  {
+    "title": "Cultural Foods for Vegans",
+    "items": [
+      {
+        "name": "Tegabino (ተጋቢኖ)",
+        "price": "300 ETB",
+        "description": "Fresh vegan dish with vegetables and Ethiopian-style seasoning.",
+        "cat": "Vegan"
+      },
+      {
+        "name": "Shiro Feses (ሽሮ ፈሰስ)",
+        "price": "250 ETB",
+        "description": "Traditional chickpea stew with rich, earthy taste.",
+        "cat": "Vegan"
+      }
+    ]
+  },
+  {
+    "title": "Junk Food",
+    "items": [
+      {
+        "name": "Yani's Special Pizza",
+        "price": "950 ETB",
+        "vipPrice": "1,150 ETB",
+        "description": "Loaded pizza with cheese, meat, vegetables, and house sauce.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Beef Pizza",
+        "price": "850 ETB",
+        "vipPrice": "1,020 ETB",
+        "description": "Beef topping with mozzarella and rich tomato base.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Tuna Pizza",
+        "price": "800 ETB",
+        "vipPrice": "980 ETB",
+        "description": "Tuna, cheese, and herbs on a crispy crust.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Pizza Margarita",
+        "price": "650 ETB",
+        "vipPrice": "780 ETB",
+        "description": "Classic tomato, basil, and cheese pizza.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Cheese Pizza",
+        "price": "700 ETB",
+        "vipPrice": "860 ETB",
+        "description": "Cheesy, oven-baked classic pizza.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Special Burger",
+        "price": "600 ETB",
+        "vipPrice": "720 ETB",
+        "description": "Juicy beef burger with lettuce, tomato, and house sauce.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Normal Burger",
+        "price": "450 ETB",
+        "vipPrice": "560 ETB",
+        "description": "Simple grilled burger with fresh toppings.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Cheese Burger",
+        "price": "500 ETB",
+        "vipPrice": "620 ETB",
+        "description": "Beef burger layered with melted cheese.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Beef Burger",
+        "price": "550 ETB",
+        "vipPrice": "680 ETB",
+        "description": "Tender beef patty with savory burger toppings.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Rice with Meat",
+        "price": "480 ETB",
+        "vipPrice": "600 ETB",
+        "description": "Rice topped with seasoned meat and sauce.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Special Fetira",
+        "price": "400 ETB",
+        "vipPrice": "500 ETB",
+        "description": "Fluffy flatbread with savory filling and herbs.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Special Shawarma",
+        "price": "450 ETB",
+        "vipPrice": "560 ETB",
+        "description": "Grilled chicken wrap with sauce and vegetables.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Tuna Sandwich",
+        "price": "380 ETB",
+        "vipPrice": "470 ETB",
+        "description": "Fresh tuna sandwich with crisp salad.",
+        "cat": "Junk food"
+      },
+      {
+        "name": "Club Sandwich",
+        "price": "420 ETB",
+        "vipPrice": "530 ETB",
+        "description": "Layered sandwich with chicken, cheese, and salad.",
+        "cat": "Junk food"
+      }
+    ]
+  },
+  {
+    "title": "Junk Foods for Vegans",
+    "items": [
+      {
+        "name": "Vegetable Pizza",
+        "price": "600 ETB",
+        "description": "Veggie pizza loaded with fresh farm vegetables.",
+        "cat": "Vegan junk"
+      },
+      {
+        "name": "French Fries",
+        "price": "200 ETB",
+        "description": "Crispy golden fries, perfect as a side.",
+        "cat": "Vegan junk"
+      },
+      {
+        "name": "Special Fries",
+        "price": "280 ETB",
+        "description": "Seasoned fries with herbs and savory bite.",
+        "cat": "Vegan junk"
+      },
+      {
+        "name": "Vegetable Sandwich",
+        "price": "250 ETB",
+        "description": "Fresh salad sandwich with crunchy greens.",
+        "cat": "Vegan junk"
+      },
+      {
+        "name": "Pasta be Atkilt (ፓስታ በአትክልት)",
+        "price": "280 ETB",
+        "description": "Pasta with vegetable sauce and light seasoning.",
+        "cat": "Vegan junk"
+      },
+      {
+        "name": "Pasta be Sigo (ፓስታ በስጎ)",
+        "price": "250 ETB",
+        "description": "Vegetarian pasta dish with rich sauce and herbs.",
+        "cat": "Vegan junk"
+      }
+    ]
+  },
+  {
+    "title": "Alcohol Drinks",
+    "items": [
+      {
+        "name": "Chivas",
+        "price": "4,500 ETB",
+        "vipPrice": "5,200 ETB",
+        "description": "Smooth blended whisky with warm, rich finish.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Gordon's",
+        "price": "3,200 ETB",
+        "vipPrice": "3,700 ETB",
+        "description": "Classic gin with crisp botanical notes.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Black Label",
+        "price": "4,200 ETB",
+        "vipPrice": "4,900 ETB",
+        "description": "Full-bodied whisky with smoky depth.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Gold Label",
+        "price": "5,500 ETB",
+        "vipPrice": "6,300 ETB",
+        "description": "Premium whisky with layered, refined flavor.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Tequila",
+        "price": "3,800 ETB",
+        "vipPrice": "4,400 ETB",
+        "description": "Bold tequila spirit with warm agave finish.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Jägermeister",
+        "price": "3,500 ETB",
+        "vipPrice": "4,100 ETB",
+        "description": "Herbal liqueur with a distinctive aromatic profile.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Grey Goose",
+        "price": "4,800 ETB",
+        "vipPrice": "5,500 ETB",
+        "description": "Luxury vodka with clean, smooth finish.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Don Julio",
+        "price": "6,000 ETB",
+        "vipPrice": "6,900 ETB",
+        "description": "Extra-premium tequila with smooth agave character.",
+        "cat": "Alcohol"
+      },
+      {
+        "name": "Stolichnaya",
+        "price": "3,000 ETB",
+        "vipPrice": "3,500 ETB",
+        "description": "Crisp vodka with a clean and elegant finish.",
+        "cat": "Alcohol"
+      }
+    ]
+  },
+  {
+    "title": "Beers",
+    "items": [
+      {
+        "name": "Dashen Beer",
+        "price": "120 ETB",
+        "vipPrice": "150 ETB",
+        "description": "Refreshing local beer with crisp finish.",
+        "cat": "Beer"
+      },
+      {
+        "name": "Heineken Beer",
+        "price": "160 ETB",
+        "vipPrice": "200 ETB",
+        "description": "Premium pale lager with smooth taste.",
+        "cat": "Beer"
+      },
+      {
+        "name": "Saint George Beer",
+        "price": "120 ETB",
+        "vipPrice": "150 ETB",
+        "description": "Light and refreshing local lager.",
+        "cat": "Beer"
+      },
+      {
+        "name": "Harar Beer",
+        "price": "120 ETB",
+        "vipPrice": "150 ETB",
+        "description": "Traditional Ethiopian beer with mellow character.",
+        "cat": "Beer"
+      },
+      {
+        "name": "Habesha Beer",
+        "price": "130 ETB",
+        "vipPrice": "170 ETB",
+        "description": "Classic Ethiopian lager with crisp finish.",
+        "cat": "Beer"
+      },
+      {
+        "name": "Anbesa Beer",
+        "price": "110 ETB",
+        "vipPrice": "140 ETB",
+        "description": "Smooth and easy-drinking beer.",
+        "cat": "Beer"
+      },
+      {
+        "name": "Arada Beer",
+        "price": "120 ETB",
+        "vipPrice": "150 ETB",
+        "description": "Balanced beer with clean, crisp taste.",
+        "cat": "Beer"
+      }
+    ]
+  },
+  {
+    "title": "Wine",
+    "items": [
+      {
+        "name": "Acacia Wine Red",
+        "price": "1,200 ETB",
+        "vipPrice": "1,500 ETB",
+        "description": "Rich red wine with berry and warm spice notes.",
+        "cat": "Wine"
+      },
+      {
+        "name": "Acacia Wine Rosé",
+        "price": "1,200 ETB",
+        "vipPrice": "1,500 ETB",
+        "description": "Refreshing rosé with floral and fruity character.",
+        "cat": "Wine"
+      },
+      {
+        "name": "Acacia Wine White",
+        "price": "1,200 ETB",
+        "vipPrice": "1,500 ETB",
+        "description": "Smooth white wine with crisp citrus notes.",
+        "cat": "Wine"
+      }
+    ]
+  },
+  {
+    "title": "Soft Drinks",
+    "items": [
+      {
+        "name": "Coca Cola",
+        "price": "70 ETB",
+        "vipPrice": "95 ETB",
+        "description": "Classic chilled cola with fizz.",
+        "cat": "Soft"
+      },
+      {
+        "name": "Sprite",
+        "price": "70 ETB",
+        "vipPrice": "95 ETB",
+        "description": "Light lemon-lime soda with refreshing sparkle.",
+        "cat": "Soft"
+      },
+      {
+        "name": "Fanta",
+        "price": "70 ETB",
+        "vipPrice": "95 ETB",
+        "description": "Orange-flavored soda with vibrant taste.",
+        "cat": "Soft"
+      },
+      {
+        "name": "Mirinda",
+        "price": "70 ETB",
+        "vipPrice": "95 ETB",
+        "description": "Sweet citrus soda with refreshing finish.",
+        "cat": "Soft"
+      },
+      {
+        "name": "7up",
+        "price": "70 ETB",
+        "vipPrice": "95 ETB",
+        "description": "Crisp lemon-lime refreshment.",
+        "cat": "Soft"
+      },
+      {
+        "name": "Red Bull",
+        "price": "350 ETB",
+        "vipPrice": "420 ETB",
+        "description": "Energy drink for a quick boost.",
+        "cat": "Soft"
+      },
+      {
+        "name": "Nigus Malt",
+        "price": "80 ETB",
+        "vipPrice": "110 ETB",
+        "description": "Local malt drink with smooth taste.",
+        "cat": "Soft"
+      },
+      {
+        "name": "Ambo Wuha (አምቦ ውሃ)",
+        "price": "60 ETB",
+        "vipPrice": "85 ETB",
+        "description": "Pure bottled water with refreshing taste.",
+        "cat": "Soft"
+      }
+    ]
+  },
+  {
+    "title": "Hot Drinks",
+    "items": [
+      {
+        "name": "Tea",
+        "price": "40 ETB",
+        "vipPrice": "60 ETB",
+        "description": "Fresh hot tea with comforting aroma.",
+        "cat": "Hot"
+      },
+      {
+        "name": "Coffee",
+        "price": "50 ETB",
+        "vipPrice": "75 ETB",
+        "description": "Freshly brewed coffee with rich flavor.",
+        "cat": "Hot"
+      },
+      {
+        "name": "Macchiato",
+        "price": "70 ETB",
+        "vipPrice": "100 ETB",
+        "description": "Creamy espresso drink with layered texture.",
+        "cat": "Hot"
+      }
+    ]
+  }
+]
